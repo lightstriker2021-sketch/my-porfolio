@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://lightstriker2021-sketch.github.io/my-porfolio/',
+  base: '/my-porfolio/',
 })
