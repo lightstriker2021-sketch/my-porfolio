@@ -49,23 +49,12 @@ body {
 }
 
 .p{
-    font-style: regular;
-    font-weight: bold; 
-    font-size: 20px;
-    color: off white;
-    background: rgba(15, 23, 42, 0.75);
-    border: 1px solid rgb(255, 255, 255);
-    width: fit-content;
-    margin: 0 auto;
-    padding: 4px 10px;
-    overflow-y: auto;
-    box-sizing: border-box;
-    text-align: left;
-    width: auto;
-    height: fit-content;
-    margin: 20px auto;
-    padding: 20px;
-    border: 2px solid rgb(255, 255, 255);
+   color : white;
+   text-align: center;
+   border-radius: 30px;
+   background-color: black;
+   padding: 10px 20px;
+   font-size: 20px;
 }
 
 .video-container {

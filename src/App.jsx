@@ -3,6 +3,7 @@ import './App.css'
 import P2 from '/home/terorblade/porfolio/src/assets/Screencast_20260729_125624.webm';
 import P1 from '/home/terorblade/porfolio/src/assets/LibraryManagementSystem.webm';
 import TicTacToe from './Tic-Tac-Toe.jsx';
+import picture from '/home/terorblade/porfolio/src/assets/20260815_193526.jpg';
 
 export function App() {
   const [open, setOpen] = useState(false);
@@ -19,7 +20,7 @@ export function App() {
       <p className='header'>Welcome!</p>
 
       <div className='image-container'>
-        <img src={'src/assets/20260815_193526.jpg'} className='image' alt="Cute Pic of Me" />
+            <img src={picture} alt="Profile" width = "300" /> 
       </div>
 
 
